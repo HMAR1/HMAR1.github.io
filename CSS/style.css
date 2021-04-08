@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
+
+body {
+background-color: white;
+    margin: 0px 0 0 0;
+}
+.topMenuTitle{
+    display: flex;
+    background-color: rgb(36, 36, 36);
+}
+.topMenuTitle>div {
+    flex: 1 0 50%;
+  }
+  
+  .topMenuTitle>div:first-child {
+    flex: 0 1 100%;
+  }
+.topTitle{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(254, 255, 198);
+    margin-right: 10px;
+    margin-left: 0px;
+    text-align: right;
+    order: 1;
+}
+
+.topMenu {
+    display: flex;
+    direction: rtl;
+}
+.levelsMenuA {
+    background-color: rgb(0, 225, 255);
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 60px;
+    border: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+.levelsMenuB {
+    background-color: rgb(35, 255, 108);
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 60px;
+    border: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+.levelsMenuC {
+    background-color: rgb(255, 245, 104);
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 60px;
+    border: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.levelsA {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 225, 255);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.levelsB {
+    display: none;
+    position: absolute;
+    background-color: rgb(35, 255, 108);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.levelsC {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 245, 104);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.levelsA a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.levelsB a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+.levelsC a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.levelsA a:hover {background-color: white}
+.levelsB a:hover {background-color: white}
+.levelsC a:hover {background-color: white}
+
+.levelsMenuA:hover .levelsA {
+    display: block;
+}
+.levelsMenuB:hover .levelsB {
+    display: block;
+}
+.levelsMenuC:hover .levelsC {
+    display: block;
+}
+
+.levelsMenuA:hover {
+    color: #000;
+    background: rgb(147, 242, 255);
+    box-shadow: 0 0 50px rgb(147, 242, 255);
+}
+.levelsMenuB:hover {
+    color: #000;
+    background: rgb(133, 255, 173);
+    box-shadow: 0 0 50px rgb(133, 255, 173);
+}
+.levelsMenuC:hover {
+    color: #000;
+    background: rgb(255, 249, 171);
+    box-shadow: 0 0 50px rgb(255, 250, 185);
+}
+.socialMediaIconsY img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.socialMediaIconsY {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.levelsMenuA a {
+    color: black;
+    text-decoration: none;
+}
+.levelsMenuB a {
+    color: black;
+    text-decoration: none;
+}
+.levelsMenuC a {
+    color: black;
+    text-decoration: none;
+}
+.socialMediaIconsY a:hover img{
+    box-shadow: 0 0 50px rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+.socialMediaIconsF img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.socialMediaIconsF {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.socialMediaIconsF a:hover img{
+    box-shadow: 0 0 50px rgb(34,88,154);
+    background-color: rgb(34,88,154);
+}
+.socialMediaButtons img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.socialMediaIconsI {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.socialMediaIconsI a:hover img{
+    box-shadow: 0 0 50px rgb(190,49,143);
+    background-color: rgb(190,49,143);
+}
+.socialMediaIconsT img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.socialMediaIconsT {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.socialMediaIconsT a:hover img{
+    box-shadow: 0 0 50px rgb(29,161,242);
+    background-color: rgb(29,161,242);
+}
+.socialMediaButtons {
+    display: block;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.socialMedia {
+    display: flex;
+}
+.levelsMenuButtons {
+    display: block;
+    min-width: 200px;
+}
+
+
+
+
+
